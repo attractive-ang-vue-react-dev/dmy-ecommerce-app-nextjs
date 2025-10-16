@@ -81,22 +81,29 @@ This project uses Jest and React Testing Library for unit and integration tests.
 ## 📸 UI Preview
 
 - **Product List:**
-  <img width="1705" height="906" alt="image" src="https://github.com/user-attachments/assets/eb56dd7d-b05f-43e7-bc28-1e99838d6f2c" />
+  <img width="1705" height="906" alt="image" src="https://github.com/user-attachments/assets/0f909a10-9ce8-4a37-92da-43219bb25f01" />
+
 
 - **Product Detail:**
-  <img width="1471" height="894" alt="image" src="https://github.com/user-attachments/assets/0b44a035-fdd9-437c-ac9d-197ce9e92ebc" />
+  <img width="1471" height="894" alt="image" src="https://github.com/user-attachments/assets/2d6bc52f-27a1-4559-989b-f2f582e8386f" />
+
 
 - **Cart:**
-  <img width="1508" height="894" alt="image" src="https://github.com/user-attachments/assets/989fb3b5-c4a7-44b2-9140-4bbfadf67785" />
+  <img width="1508" height="894" alt="image" src="https://github.com/user-attachments/assets/cb6d7601-c755-4896-81f4-e4644e15262e" />
+
+
 
 
 > _Additional screenshots for richer documentation!_
 - **Cart clear confirm dialog:** 
-<img width="1473" height="886" alt="image" src="https://github.com/user-attachments/assets/430dbfb5-ba7f-488c-b21b-29c7d348cbd7" />
+<img width="1473" height="886" alt="image" src="https://github.com/user-attachments/assets/a6c20c75-4c95-4aa7-a92a-d61814f369dd" />
+
 - **Product detail page on review tab:**
-<img width="1486" height="873" alt="image" src="https://github.com/user-attachments/assets/3289ea05-b6fe-4a28-817d-a4ec16ee4a06" />
+<img width="1486" height="873" alt="image" src="https://github.com/user-attachments/assets/e111246d-4b5f-4cd7-bba8-82067a6d37f6" />
+
 - **Product detail page multi-image with swiper slider:**
-<img width="1272" height="705" alt="image" src="https://github.com/user-attachments/assets/088de1bf-1e3b-4855-99bc-7e87557400f6" />
+<img width="1272" height="705" alt="image" src="https://github.com/user-attachments/assets/95067a6e-6f6e-4ecf-b48f-c851a87eccbf" />
+
 
 ---
 
