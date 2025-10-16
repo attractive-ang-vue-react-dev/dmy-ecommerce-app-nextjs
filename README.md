@@ -104,6 +104,11 @@ This project uses Jest and React Testing Library for unit and integration tests.
 - **Product detail page multi-image with swiper slider:**
 <img width="1272" height="705" alt="image" src="https://github.com/user-attachments/assets/95067a6e-6f6e-4ecf-b48f-c851a87eccbf" />
 
+- **Product Search:**
+<img width="1506" height="807" alt="image" src="https://github.com/user-attachments/assets/df294fab-97dc-4090-b83a-1c9471545cd0" />
+
+- **Product sorting/filtering:**
+<img width="1714" height="949" alt="image" src="https://github.com/user-attachments/assets/f55ce2ac-4cd1-4b73-8315-124bafc18a98" />
 
 ---
 
