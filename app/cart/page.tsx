@@ -119,10 +119,10 @@ export default function CartPage() {
               </div>
             )}
 
-            <div className="border-t pt-4 flex justify-between items-center bg-gray-50 px-4">
-              <div className="flex items-center gap-2">
+            <div className="border-t py-4 flex justify-between items-center bg-gray-50 px-4">
+              <div className="flex items-center gap-2 self-center">
                 <FaShoppingBasket className="text-yellow-500" />
-                <span>Total ({totalCount} items)</span>
+                <span className="font-semibold">Total</span><span>({totalCount} items)</span>
               </div>
               <div className="font-bold text-lg">${totalPrice.toFixed(2)}</div>
             </div>

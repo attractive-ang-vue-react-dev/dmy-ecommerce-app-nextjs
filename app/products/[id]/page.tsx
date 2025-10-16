@@ -32,7 +32,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
         <HydrateProduct product={product} />
 
         {/* Image gallery */}
-        <div className="md:col-span-2 border-yellow-200 border">
+        <div className="md:col-span-2 border-yellow-300 border p-5">
           <ProductGallery images={product.images ?? []} />
         </div>
 

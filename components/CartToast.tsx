@@ -12,7 +12,7 @@ export default function CartToast({
   return (
     <div className="fixed w-full z-50 top-0 right-0 bg-green-500 text-white px-6 py-1 rounded shadow-sm animate-fade-in-out pointer-events-none">
       <span className="font-semibold text-md">{productTitle}</span>
-      added to cart!
+      &nbsp;&nbsp;added to cart!
     </div>
   );
 }

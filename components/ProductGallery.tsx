@@ -72,7 +72,7 @@ const ProductGallery: React.FC<ProductGalleryProps> = ({
         spaceBetween={10}
         navigation
         thumbs={{ swiper: thumbsSwiper }}
-        className="w-full h-96 mb-2"
+        className="w-full h-120 mb-2"
       >
         {images.map((url, i) => (
           <SwiperSlide key={i}>
@@ -101,7 +101,7 @@ const ProductGallery: React.FC<ProductGalleryProps> = ({
           {images.map((url, i) => (
             <SwiperSlide key={i}>
               <div
-                className="w-full h-20 relative flex items-center justify-center border-2 border-gray-200 bg-gray-50 rounded transition-all hover:border-blue-400 focus-within:border-blue-400"
+                className="w-full h-20 relative flex items-center justify-center border-2 border-yellow-300 bg-gray-50 transition-all hover:border-yellow-500 focus-within:border-yellow-500"
                 style={{ width: "100%" }}
               >
                 <Image

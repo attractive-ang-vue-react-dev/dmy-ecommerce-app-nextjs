@@ -1,7 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
 import "./globals.css";
-import { CartProvider } from "../context/CartContext";
+import { CartProvider } from "@/context/CartContext";
 
 export const metadata: Metadata = {
   title: "Shop",

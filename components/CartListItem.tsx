@@ -33,8 +33,8 @@ const CartItem: React.FC<CartItemProps> = ({
 }) => {
   return (
     <div
-      className={`flex items-center justify-between py-6 ${
-        first ? "border-t border-gray-200" : ""
+      className={`flex items-center justify-between py-2 ${
+        first ? "border-t border-yellow-400" : ""
       } ${last ? "border-b border-yellow-400" : ""}`}
     >
       <div className="flex items-center gap-5 w-2/3">
