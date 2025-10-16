@@ -18,13 +18,13 @@ export default function CartIconWithCount() {
     >
       {mounted && totalCount > 0 ? (
         <>
-        <SlBasketLoaded  className="text-3xl text-yellow-500 group-hover:text-yellow-600 transition-colors" />
-        <span className="absolute -top-1 -right-3 bg-red-500 text-white text-xs rounded-full px-1.5 py-0.5 font-bold shadow">
-          {totalCount}
-        </span>
+          <SlBasketLoaded className="text-3xl text-yellow-500 group-hover:text-yellow-600 transition-colors" />
+          <span className="absolute -top-1 -right-3 bg-red-500 text-white text-xs rounded-full px-1.5 py-0.5 font-bold shadow">
+            {totalCount}
+          </span>
         </>
       ) : (
-        <SlBasket  className="text-3xl text-yellow-500 group-hover:text-yellow-600 transition-colors" />
+        <SlBasket className="text-3xl text-yellow-500 group-hover:text-yellow-600 transition-colors" />
       )}
     </Link>
   );

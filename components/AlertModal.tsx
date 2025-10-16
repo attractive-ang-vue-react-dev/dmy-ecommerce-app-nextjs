@@ -33,9 +33,11 @@ export const AlertModal: React.FC<AlertModalProps> = ({
       >
         {/* Title */}
         <span className="flex self-center mb-3">
-          <IoIosWarning className="text-2xl my-auto"/>
+          <IoIosWarning className="text-2xl my-auto" />
           &nbsp;
-          <h2 className="text-xl font-semibold text-gray-800 self-center">{title}</h2>
+          <h2 className="text-xl font-semibold text-gray-800 self-center">
+            {title}
+          </h2>
         </span>
 
         {/* Message */}
