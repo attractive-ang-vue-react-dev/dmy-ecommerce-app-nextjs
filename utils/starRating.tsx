@@ -3,8 +3,8 @@ import React from "react";
 const StarFull = ({ title }: { title?: string }) => (
   <svg
     aria-hidden="true"
-    width="16"
-    height="16"
+    width="14"
+    height="14"
     viewBox="0 0 24 24"
     fill="currentColor"
     className="text-yellow-500"
@@ -17,8 +17,8 @@ const StarFull = ({ title }: { title?: string }) => (
 const StarHalf = ({ title }: { title?: string }) => (
   <svg
     aria-hidden="true"
-    width="16"
-    height="16"
+    width="14"
+    height="14"
     viewBox="0 0 24 24"
     className="text-yellow-500"
   >
@@ -39,8 +39,8 @@ const StarHalf = ({ title }: { title?: string }) => (
 const StarEmpty = ({ title }: { title?: string }) => (
   <svg
     aria-hidden="true"
-    width="16"
-    height="16"
+    width="14"
+    height="14"
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
@@ -63,7 +63,7 @@ export const renderStars = (rating?: number) => {
 
   return (
     <div
-      className="flex items-center gap-1 text-sm"
+      className="flex items-center"
       role="img"
       aria-label={`Rating: ${rating.toFixed(1)} out of 5`}
       tabIndex={0}

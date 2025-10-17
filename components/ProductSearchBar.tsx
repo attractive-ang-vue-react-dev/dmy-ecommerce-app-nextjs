@@ -60,7 +60,7 @@ export default function ProductSearchBar({
   }
 
   return (
-    <div className="fixed top-0 left-0 w-full z-50 bg-white/95 shadow-lg py-3 px-4 border-b border-blue-100 backdrop-blur-md flex items-center">
+    <div className="fixed top-0 left-0 w-full z-50 bg-white/95 py-3 px-4 border-b border-yellow-200 backdrop-blur-md flex items-center">
       {/* Left: Back button */}
       <div className="flex items-center" style={{ minWidth: 48 }}>
         {showBack && (
