@@ -81,11 +81,13 @@ This project uses Jest and React Testing Library for unit and integration tests.
 ## 📸 UI Preview
 
 - **Product List:**
-  <img width="1705" height="906" alt="image" src="https://github.com/user-attachments/assets/0f909a10-9ce8-4a37-92da-43219bb25f01" />
+  <img width="1793" height="938" alt="image" src="https://github.com/user-attachments/assets/b6d70f1d-bf0d-4c23-9740-1cc643ef037a" />
+
 
 
 - **Product Detail:**
-  <img width="1471" height="894" alt="image" src="https://github.com/user-attachments/assets/2d6bc52f-27a1-4559-989b-f2f582e8386f" />
+  <img width="1447" height="951" alt="image" src="https://github.com/user-attachments/assets/1b538ca7-e51d-4bc2-997d-613eae6ccb6b" />
+
 
 
 - **Cart:**
