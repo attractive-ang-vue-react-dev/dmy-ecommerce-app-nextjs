@@ -14,6 +14,7 @@ import { renderStars } from "../utils/starRating";
 import type { ProductSummary } from "../types/product";
 
 import AddToCartButton from "./AddToCartButton";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 export const ProductCard: React.FC<{
   product: ProductSummary;
@@ -49,23 +50,19 @@ export const ProductCard: React.FC<{
 
   return (
     <div
-      className="bg-gray-50 border border-gray-100  rounded-sm p-4 flex flex-col gap-2 group focus-within:ring-1 focus-within:ring-yellow-400 transition-transform duration-200 hover:scale-[1.02] shadow-xs relative h-[400px]"
-      tabIndex={0}
-      onFocus={() => setIsActive(true)}
-      onBlur={() => setIsActive(false)}
+      className="bg-gray-50 shadow-md p-4 flex flex-col gap-2 group transition-transform duration-200 hover:scale-[1.02] relative h-[400px]"
       onMouseEnter={() => setIsActive(true)}
       onMouseLeave={() => setIsActive(false)}
     >
-      <div className="relative w-full h-40 mb-2 overflow-hidden bg-white">
+      <div className="relative w-full h-50 mb-2 overflow-hidden bg-white">
         {images && images.length > 1 ? (
           <Swiper
-            modules={[]}
+            modules={[Autoplay, Pagination, Navigation]}
             spaceBetween={0}
             slidesPerView={1}
+            centeredSlides={true}
             loop
-            autoplay={
-              isActive ? { delay: 1200, disableOnInteraction: false } : false
-            }
+            autoplay={isActive ?? { delay: 1200, disableOnInteraction: true }}
             navigation={isActive}
             className="w-full h-40 group"
           >
@@ -95,15 +92,25 @@ export const ProductCard: React.FC<{
       </div>
 
       <h3
-        className="font-semibold line-clamp-3 min-h-[2.5em] hover:cursor-pointer hover:text-yellow-600"
+        className="truncate font-semibold line-clamp-2 min-h-[1em] hover:cursor-pointer hover:text-yellow-500"
         onClick={() => goToDetail(product?.id)}
       >
         {product.title}
       </h3>
-      <p className="text-xs text-gray-500 mb-1">{product.brand}</p>
-      <div>{renderStars(product.rating)}</div>
-      <div className="flex items-center justify-between mb-14 mt-2">
-        <div className="font-bold text-lg text-gray-900">${product.price}</div>
+      <div className="overflow-hidden relative whitespace-nowrap cursor-pointer">
+        <div className="inline-flex gap-8 will-change-transform hover:animate-[tw-marquee_12s_linear_infinite]">
+          <p className="text-xs font-semibold text-gray-600 truncate">
+            {product.description}
+          </p>
+        </div>
+      </div>
+      <div className="grid grid-flow-col grid-rows-3 gap-5 mt-3">
+        <div className="row-span-2 font-bold text-lg text-gray-900">
+          ${product.price}
+        </div>
+        <div className="row-span-2 flex items-center">
+          {renderStars(product.rating)}
+        </div>
       </div>
 
       <div className="absolute left-0 right-0 bottom-0 w-full">

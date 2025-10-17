@@ -1,6 +1,8 @@
 export interface ProductSummary {
   id: number;
   title: string;
+  description?: string;
+  reviews?: ProductReview[];
   price: number;
   discountPercentage?: number;
   rating?: number;
