@@ -30,7 +30,7 @@ export const ProductCard: React.FC<{
   // Only autoplay images on hover/focus, keep card height fixed
   const [isActive, setIsActive] = React.useState(false);
   const images = (product as any).images as string[] | undefined;
-  
+
   if (loading) {
     return (
       <div className="border border-blue-100 bg-white/90 rounded-xl p-4 flex flex-col gap-3 shadow-md min-h-[370px] animate-pulse">
